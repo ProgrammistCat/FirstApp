@@ -106,6 +106,122 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
+            // Если ни один символ A не входит в B,
+            // то упорядочить символы A в алфавитном порядке;
+            // в остальных случаях упорядочить символы A в порядке,обратном к алфавитному
+
+
+            // char
+
+            // string str = "Hello";
+            //
+            // for (int i = 0; i < str.Length; i++)
+            // {
+            //     Console.WriteLine(str[i]);
+            // }
+
+            
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            
+            // for (int i = 0; i < first.Length; i++)
+            // {
+            //     for (int j = i + 1; j < second.Length; j++)
+            //     {
+            //         if (first[i] == second[j])
+            //         {
+            //             flag = true;
+            //         } 
+            //     }
+            // }
+            //
+            //
+            // char[] charArray = first.ToCharArray();
+            //
+            // if (flag)
+            // {
+            //     // обратный алф
+            //     for (int i = 0; i < charArray.Length - 1; i++)
+            //     {
+            //         for (int j = i + 1; j < charArray.Length; j++)
+            //         {
+            //             if (charArray[i] < charArray[j])
+            //             {
+            //                 char temp = charArray[i];
+            //                 charArray[i] = charArray[j];
+            //                 charArray[j] = temp;
+            //             } 
+            //         }
+            //     }
+            // }
+            // else
+            // {
+            //     // алф
+            //     for (int i = 0; i < charArray.Length - 1; i++)
+            //     {
+            //         for (int j = i + 1; j < charArray.Length; j++)
+            //         {
+            //             if (charArray[i] > charArray[j])
+            //             {
+            //                 char temp = charArray[i];
+            //                 charArray[i] = charArray[j];
+            //                 charArray[j] = temp;
+            //             } 
+            //         }
+            //     }
+            // }
+            //
+            // // string result = charArray.ToString();
+            // // Console.WriteLine(result);
+            //
+            //
+            // string result = "";
+            // for (int i = 0; i < charArray.Length; i++)
+            // {
+            //     result += charArray[i];
+            // }
+            //
+            // Console.WriteLine("Результат решения задания:");
+            //
+            // Console.WriteLine(result);
+            
+            
+
+
+
+            // int[] arr = {1, 2, 3};
+            // int[] arr1 = new int[] {1, 2, 3};
+            // int[] arr2 = new int[3] {1, 2, 3};
+
+            // Console.WriteLine(arr[0]); // 1
+
+
+            // for (int i = 0; i < arr.Length; i++)
+            // {
+            //     Console.WriteLine(arr[i]);
+            // }
+
+            // string list = "";
+            //
+            // for (int i = 0; i < arr.Length; i++)
+            // {
+            //     if (i != arr.Length - 1)
+            //     {
+            //         list += arr[i] + ", ";
+            //     }
+            //     else
+            //     {
+            //         list += arr[i] + ".";
+            //     }
+            // }
+            //
+            // Console.WriteLine(list);
+
 
             // Penguin penguinFirst = new Penguin();
             // penguinFirst.Name = "Вася";
@@ -148,44 +264,44 @@ namespace FirstApp
             //
             // catFirst.Run();
             // catSecond.Run();
-            
-            IceCream iceCreamFirst = new IceCream();
-            iceCreamFirst.Title = "Мороженое";
-            iceCreamFirst.Taste = " ванильное";
-            
-            IceCream iceCreamSecond = new IceCream();
-            iceCreamSecond.Title = "Мороженое";
-            iceCreamSecond.Taste = " фисташковое";
-            
-            Cookie cookieFirst = new Cookie();
-            cookieFirst.Title = "Печенье";
-            cookieFirst.Taste = " шоколадное";
-            
-            Cookie cookieSecond = new Cookie();
-            cookieSecond.Title = "Печенье";
-            cookieSecond.Taste = " с карамелью";
-            
-            Gum gumFirst = new Gum();
-            gumFirst.Title = "Жвачка";
-            gumFirst.Taste = " клубничная";
-            
-            Gum gumSecond = new Gum();
-            gumSecond.Title = "Жвачка";
-            gumSecond.Taste = " арбузная";
-            
-            
-            
-            
-            iceCreamFirst.Melt();
-            iceCreamSecond.Melt();
-            
-            cookieFirst.Crunch();
-            cookieSecond.Crunch();
-            
-            gumFirst.Stretch();
-            gumSecond.Stretch();
 
-            
+            // IceCream iceCreamFirst = new IceCream();
+            // iceCreamFirst.Title = "Мороженое";
+            // iceCreamFirst.Taste = " ванильное";
+            //
+            // IceCream iceCreamSecond = new IceCream();
+            // iceCreamSecond.Title = "Мороженое";
+            // iceCreamSecond.Taste = " фисташковое";
+            //
+            // Cookie cookieFirst = new Cookie();
+            // cookieFirst.Title = "Печенье";
+            // cookieFirst.Taste = " шоколадное";
+            //
+            // Cookie cookieSecond = new Cookie();
+            // cookieSecond.Title = "Печенье";
+            // cookieSecond.Taste = " с карамелью";
+            //
+            // Gum gumFirst = new Gum();
+            // gumFirst.Title = "Жвачка";
+            // gumFirst.Taste = " клубничная";
+            //
+            // Gum gumSecond = new Gum();
+            // gumSecond.Title = "Жвачка";
+            // gumSecond.Taste = " арбузная";
+            //
+            //
+            //
+            //
+            // iceCreamFirst.Melt();
+            // iceCreamSecond.Melt();
+            //
+            // cookieFirst.Crunch();
+            // cookieSecond.Crunch();
+            //
+            // gumFirst.Stretch();
+            // gumSecond.Stretch();
+
+
 
             // int a = 1;
             //
@@ -373,7 +489,7 @@ namespace FirstApp
 
 
             // JS - функциональный подход
-            // C# - объектно ориентированый подход (ООП)
+            // C# - объектно-ориентированный подход (ООП)
 
 
             /*
@@ -383,6 +499,162 @@ namespace FirstApp
              *
              * 
              */
+            
+            
+            
+            //Домашка:
+
+
+            // 1.Если в A есть символы из B
+            
+                        
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            //
+            // for (int i = 0; i < second.Length; i++)
+            // {
+            //     for (int j = 0; j < first.Length; j++)
+            //     {
+            //         if (first[j] == second[i])
+            //         {
+            //             flag = true;
+            //         } 
+            //     }
+            // }
+            //
+            // Console.WriteLine(flag);
+            
+            // 2.Если все символы A входят в B
+            
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            //
+            // bool condition = false;
+            //
+            // for (int i = 0; i < first.Length; i++)
+            // {
+            //     for (int j = 0; j < second.Length; j++)
+            //     {
+            //         if (first[i] == second[j])
+            //         {
+            //             condition = true;
+            //         }
+            //     }
+            //     
+            //     if (condition == true)
+            //     {
+            //         flag = true;
+            //     }
+            //     else
+            //     {
+            //         flag = false;
+            //         return;
+            //     }
+            // }
+            //
+            // Console.WriteLine(flag);
+            
+            // 3.Если в A есть русские буквы
+            
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            //
+            // for (int i = 0; i < first.Length; i++)
+            // {
+            //     if (((first[i] >= 'a') && (first[i] <= 'z')) || ((first[i] >= 'A') && (first[i] <= 'Z'))) {}
+            //     else
+            //     {
+            //         flag = true;
+            //     }
+            // }
+            //
+            // Console.WriteLine(flag);
+            
+            // 4.Если в A есть знаки препинания
+            
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            //
+            // string symbols = ".,,;:!?-";
+            //
+            // for (int i = 0; i < first.Length; i++)
+            // {
+            //     for (int j = 0; j < symbols.Length; j++)
+            //     {
+            //         if (first[i] == symbols[j])
+            //         {
+            //             flag = true;
+            //         }
+            //     }
+            // }
+            
+            // Console.WriteLine(flag);
+            
+            // 5. Если строки состоят из одних и тех же символов
+            
+            Console.WriteLine("Первая строка: ");
+            string first = Console.ReadLine();
+            
+            Console.WriteLine("Вторая строка: ");
+            string second = Console.ReadLine();
+            
+            bool flag = false;
+            
+            for (int i = 0; i < first.Length; i++)
+            {
+                for (int j = 0; j < second.Length; j++)
+                {
+                    if (first[i] == second[j])
+                    {
+                        flag = true;
+                    }
+                }
+            }
+            
+            Console.WriteLine(flag);
+            
+            // 6. Если в B нет повторяющихся символов
+            
+            // Console.WriteLine("Первая строка: ");
+            // string first = Console.ReadLine();
+            //
+            // Console.WriteLine("Вторая строка: ");
+            // string second = Console.ReadLine();
+            //
+            // bool flag = false;
+            //
+            // for (int i = 0; i < second.Length; i++)
+            // {
+            //     for (int j = i + 1; j < second.Length; j++)
+            //     {
+            //         if (second[i] == second[j])
+            //         {
+            //             flag = true;
+            //         }
+            //     }
+            // }
+            //
+            // Console.WriteLine(flag);
 
         }
     }
