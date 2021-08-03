@@ -106,6 +106,8 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
+            StringLabs.Lab2();
+
             // Если ни один символ A не входит в B,
             // то упорядочить символы A в алфавитном порядке;
             // в остальных случаях упорядочить символы A в порядке,обратном к алфавитному
@@ -120,7 +122,7 @@ namespace FirstApp
             //     Console.WriteLine(str[i]);
             // }
 
-            
+
             // Console.WriteLine("Первая строка: ");
             // string first = Console.ReadLine();
             //
@@ -128,7 +130,7 @@ namespace FirstApp
             // string second = Console.ReadLine();
             //
             // bool flag = false;
-            
+
             // for (int i = 0; i < first.Length; i++)
             // {
             //     for (int j = i + 1; j < second.Length; j++)
@@ -189,8 +191,8 @@ namespace FirstApp
             // Console.WriteLine("Результат решения задания:");
             //
             // Console.WriteLine(result);
-            
-            
+
+
 
 
 
@@ -499,162 +501,13 @@ namespace FirstApp
              *
              * 
              */
-            
-            
-            
+
+
+
             //Домашка:
 
 
-            // 1.Если в A есть символы из B
-            
-                        
-            // Console.WriteLine("Первая строка: ");
-            // string first = Console.ReadLine();
-            //
-            // Console.WriteLine("Вторая строка: ");
-            // string second = Console.ReadLine();
-            //
-            // bool flag = false;
-            //
-            // for (int i = 0; i < second.Length; i++)
-            // {
-            //     for (int j = 0; j < first.Length; j++)
-            //     {
-            //         if (first[j] == second[i])
-            //         {
-            //             flag = true;
-            //         } 
-            //     }
-            // }
-            //
-            // Console.WriteLine(flag);
-            
-            // 2.Если все символы A входят в B
-            
-            // Console.WriteLine("Первая строка: ");
-            // string first = Console.ReadLine();
-            //
-            // Console.WriteLine("Вторая строка: ");
-            // string second = Console.ReadLine();
-            //
-            // bool flag = false;
-            //
-            // bool condition = false;
-            //
-            // for (int i = 0; i < first.Length; i++)
-            // {
-            //     for (int j = 0; j < second.Length; j++)
-            //     {
-            //         if (first[i] == second[j])
-            //         {
-            //             condition = true;
-            //         }
-            //     }
-            //     
-            //     if (condition == true)
-            //     {
-            //         flag = true;
-            //     }
-            //     else
-            //     {
-            //         flag = false;
-            //         return;
-            //     }
-            // }
-            //
-            // Console.WriteLine(flag);
-            
-            // 3.Если в A есть русские буквы
-            
-            // Console.WriteLine("Первая строка: ");
-            // string first = Console.ReadLine();
-            //
-            // Console.WriteLine("Вторая строка: ");
-            // string second = Console.ReadLine();
-            //
-            // bool flag = false;
-            //
-            // for (int i = 0; i < first.Length; i++)
-            // {
-            //     if (((first[i] >= 'a') && (first[i] <= 'z')) || ((first[i] >= 'A') && (first[i] <= 'Z'))) {}
-            //     else
-            //     {
-            //         flag = true;
-            //     }
-            // }
-            //
-            // Console.WriteLine(flag);
-            
-            // 4.Если в A есть знаки препинания
-            
-            // Console.WriteLine("Первая строка: ");
-            // string first = Console.ReadLine();
-            //
-            // Console.WriteLine("Вторая строка: ");
-            // string second = Console.ReadLine();
-            //
-            // bool flag = false;
-            //
-            // string symbols = ".,,;:!?-";
-            //
-            // for (int i = 0; i < first.Length; i++)
-            // {
-            //     for (int j = 0; j < symbols.Length; j++)
-            //     {
-            //         if (first[i] == symbols[j])
-            //         {
-            //             flag = true;
-            //         }
-            //     }
-            // }
-            
-            // Console.WriteLine(flag);
-            
-            // 5. Если строки состоят из одних и тех же символов
-            
-            Console.WriteLine("Первая строка: ");
-            string first = Console.ReadLine();
-            
-            Console.WriteLine("Вторая строка: ");
-            string second = Console.ReadLine();
-            
-            bool flag = false;
-            
-            for (int i = 0; i < first.Length; i++)
-            {
-                for (int j = 0; j < second.Length; j++)
-                {
-                    if (first[i] == second[j])
-                    {
-                        flag = true;
-                    }
-                }
-            }
-            
-            Console.WriteLine(flag);
-            
-            // 6. Если в B нет повторяющихся символов
-            
-            // Console.WriteLine("Первая строка: ");
-            // string first = Console.ReadLine();
-            //
-            // Console.WriteLine("Вторая строка: ");
-            // string second = Console.ReadLine();
-            //
-            // bool flag = false;
-            //
-            // for (int i = 0; i < second.Length; i++)
-            // {
-            //     for (int j = i + 1; j < second.Length; j++)
-            //     {
-            //         if (second[i] == second[j])
-            //         {
-            //             flag = true;
-            //         }
-            //     }
-            // }
-            //
-            // Console.WriteLine(flag);
+
 
         }
     }
